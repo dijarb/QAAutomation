@@ -2,12 +2,25 @@ package step_definitions;
 
 import io.cucumber.java.en.*;
 import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
 import pages.*;
 import utility.*;
+
+import javax.swing.*;
+import javax.swing.Action;
 
 public class LoginTest {
 
     public LoginPage loginPage = new LoginPage();
+
+    @Test
+    public void test(){
+        Actions actions = new Actions(Driver.get());
+
+
+
+    }
 
     @Given("user go to the login page")
     public void user_go_to_the_login_page() {

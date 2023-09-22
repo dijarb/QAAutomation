@@ -1,4 +1,4 @@
-package utility.database_testing;
+package database_testing;
 
 import org.junit.jupiter.api.*;
 import utility.*;
